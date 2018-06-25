@@ -14,6 +14,9 @@ public class Deque<T> {
 		
 		if (this.isEmpty()) {
 			cabeca = cauda = el;
+			
+			el.setAnterior(cauda);
+			el.setProximo(cabeca);
 		} else {
 			cauda.setProximo(el);
 			cauda = el;
@@ -29,6 +32,9 @@ public class Deque<T> {
 		
 		if (this.isEmpty()) {
 			cabeca = cauda = el;
+			
+			el.setAnterior(cauda);
+			el.setProximo(cabeca);
 		} else {
 			cabeca.setAnterior(el);
 			cabeca = el;

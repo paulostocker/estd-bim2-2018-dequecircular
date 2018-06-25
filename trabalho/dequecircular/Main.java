@@ -21,6 +21,10 @@ public class Main {
 		
 		dq.list(x -> System.out.print(x + " "));
 		
+		dq.removeLast();
+		
+		dq.list(x -> System.out.print(x + " "));
+		
 		dq.clear();
 		
 		dq.list(x -> System.out.print(x + " "));
@@ -28,6 +32,26 @@ public class Main {
 		dq.addFirst(100);
 		
 		dq.list(x -> System.out.print(x + " "));
+		
+//		dq.removeFirst();
+//		
+//		dq.list(x -> System.out.print(x + " "));
+//		
+//		dq.removeLast();
+//		
+//		dq.list(x -> System.out.print(x + " "));
+//		
+//		dq.removeFirst();
+//		
+//		dq.list(x -> System.out.print(x + " "));
+//		
+//		dq.removeLast();
+//		
+//		dq.list(x -> System.out.print(x + " "));
+//		
+//		dq.removeLast();
+//		
+//		dq.list(x -> System.out.print(x + " "));
 	}
 
 }
